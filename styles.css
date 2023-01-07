@@ -1,0 +1,178 @@
+/* this CSS Style Sheet made on 07.01.2023 */
+*{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    width:1320px;
+    height:669px;
+    background-image: url("../new-year-new-me-bulbul/images/banner/banner3.png");
+    background-size:contain;    
+}
+.header-content{
+   color:black;
+   display:inline-block;
+   text-align:right;
+   padding-top: 220px;
+   margin-left:850px;
+   width:300px;}
+.primary-button {
+    padding:10px 25px;
+    background-color:white;
+    margin-top:30px;
+    font-size:16px;
+    border-radius: 10px; 
+    border-style: none;
+}
+.header-content h1{
+    color: white;
+    font-size: 2.5em;
+}
+/* header styling ends here */
+
+/* starting of "my failure section" */
+.my-failure {
+    width:1320px;
+    height: 800px;
+    display:flex;
+    background-color: rgb(255, 247, 247);
+}
+.right-content{
+ padding-left: 150px;
+ width: 500px;
+}
+.right-content p{
+    line-height: 1.6;
+}
+.right-content h1{
+    font-size: 2.5em;
+    padding-bottom:10px;
+    width: 350px;
+    margin-left:0;
+}
+.right-content li{
+    list-style-type: square;
+    padding-top:15px;
+}
+/* end of "my failure section" */
+
+/* start of "my plan section" */
+.my-plan {
+    width:1320px;
+    height: 500px;
+    background-color:rgb(255, 226, 226);
+    text-align: center;
+    padding-top: 150px;
+}
+.my-plan .my-headline{
+    font-size: 40px;
+}
+.my-plan-all{
+    display:flex;
+    padding-top:100px;
+    line-height: 1.6;
+    font-size: 1.5em;
+}
+/* end of my plan section */
+
+/* star of banner section */
+.banner{
+    width:1320px;
+    height: 400px;
+    padding-top: 50px;
+    background-color: rgb(243, 243, 243);
+}
+.banner-main {
+    background-image: linear-gradient(to left, rgba(245, 246, 252, 0.52), rgba(202, 25, 114, 0.73)),
+    url('images/watch.png');
+    background-position: center;
+    width:1000px;
+    height: 300px;
+    border-radius: 10px;
+}
+.banner-main h1{
+    padding-left: 100px;
+    padding-top: 80px;
+    color: white;
+    font-size: 35px;
+    width: 500px;
+    margin-left:0;
+}
+.banner-main button{
+    margin-left:100px;
+    margin-top:20px;
+    background-color:rgb(255, 255, 255);
+    font-size:16px;
+    color: rgb(255, 255, 255);
+    border-style: none;
+    padding: 15px 35px;
+    font-weight: 600;
+    color:rgba(117, 19, 93);
+    border-radius: 10px;
+}
+/* end of banner section */
+
+/* starting of footer section */
+.footer {
+    width:1320px;
+    height: 450px;
+    background-color:black;
+    color:white;
+    display:flex;
+}
+
+/* footer left part starts here */
+.footer-left {
+    width: 500px;
+    margin-left: 180px;
+    padding-top: 90px;
+    line-height: 1.6;
+}
+.footer-left h1{
+    font-size: 2em;
+}
+.footer-left p {
+font-size: small;    
+padding-bottom: 15px;
+}
+.footer-left li{
+    text-decoration: none;
+    display:inline-block;
+    padding-right:10px;
+    padding-top:15px;
+    margin-left:0; 
+/* I could not set the social media icons to the left align */
+}
+/* footer-left ends here */
+/* footer-right part starts here */
+.footer-right {
+    width: 330px;
+    margin-left: 180px;
+    padding-top:;
+    line-height: 1.6;
+    display: block;
+}
+.footer-right h1{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.subscribe-button{
+    padding:15px 40px;
+    background-color:rgb(53, 106, 250);
+    margin-top:30px;
+    font-size:16px;
+    color:azure;
+    border-style: none;
+    border-radius: 10px;
+}
+.email{
+    margin-top: 5px;
+    padding:18px 38px;
+    font-size: 22px;
+    background-color: black;
+    border: 2px solid white;
+}
+/* the end of footer */
+
+/* NB: 07.01.2023 this website is made for the 1st assignment of Complete web development 
+with Jhankar Mahbub Sir. I have used my own skills here what ever I have learnt from the previous videos. I have not taken any idea from figma. Hope in future, I will be more acquainted/used to use the tags more exactly and will be able to write more clear codes. With God Everything is possible..(Bulbul) */
